@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import OfferingCard from '@/components/offerings/OfferingCard';
 
-const VerdixPage = () => {
+const VirdixPage = () => {
     const offerings = [
         {
             image: '/images/virdix/virdix-1.png',
@@ -61,7 +61,7 @@ const VerdixPage = () => {
             <section className="relative w-full h-[200px] md:h-[300px] overflow-hidden mt-16 md:mt-24">
                 <Image
                     src="/images/virdix/virdix-hero.png"
-                    alt="Verdix Division"
+                    alt="Virdix Division"
                     fill
                     className="object-cover"
                     priority
@@ -69,7 +69,7 @@ const VerdixPage = () => {
                 <div className="absolute inset-0 bg-black/50"></div>
                 <div className="relative z-10 h-full flex items-center justify-center px-4">
                     <h1 className="text-white text-3xl md:text-5xl lg:text-6xl font-bold text-center">
-                        Verdix division offerings
+                        Virdix division offerings
                     </h1>
                 </div>
             </section>
@@ -95,4 +95,4 @@ const VerdixPage = () => {
     );
 };
 
-export default VerdixPage;
+export default VirdixPage;
