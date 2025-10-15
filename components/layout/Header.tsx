@@ -98,7 +98,7 @@ const Header = () => {
 
   const offeringsDropdown = [
     { name: 'Cordix Division Offerings', href: '/offerings/cordix' },
-    { name: 'Verdix Division Offerings', href: '/offerings/virdix' },
+    { name: 'Virdix Division Offerings', href: '/offerings/virdix' },
   ];
 
   const languages = ['EN', 'AR'];

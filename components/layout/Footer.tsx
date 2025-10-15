@@ -23,7 +23,7 @@ const Footer = () => {
 
     const services = [
         { name: 'Cordix Division Offerings', href: '/offerings/cordix' },
-        { name: 'Verdix Division Offerings', href: '/offerings/verdix' },
+        { name: 'Virdix Division Offerings', href: '/offerings/virdix' },
     ];
 
     return (
